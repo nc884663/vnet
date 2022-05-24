@@ -8,7 +8,7 @@ cat << EOF > /etc/xray/config.json
   "inbounds": [
     {
       "listen": "0.0.0.0",
-      "port": 80,
+      "port": 443,
       "protocol": "vless",
       "settings": {
         "decryption": "none",
@@ -20,9 +20,9 @@ cat << EOF > /etc/xray/config.json
       },
        "streamSettings": {
         "network": "ws",
-        "security": "none",
+        "security": "tls",
+        "sni": "viettel.akamaized.net"
         "wsSettings": {
-          "host": "viettel.akamaized.net",
           "path": "/"
           }
       }
