@@ -25,7 +25,7 @@ ___
    - [ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ] ʙᴜᴛᴛᴏɴ👇👇
 
 
-<p><a href="https://dashboard.heroku.com/new?template=https://github.com/nc884663/nc"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/nc884663/vnet"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 ⭕ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ʀᴇɢɪᴏɴ ᴛʜᴀᴛ ᴡᴏʀᴋꜱ ʙᴇꜱᴛ ꜰᴏʀ ʏᴏᴜ.
    - 🔺ʀᴇᴍᴇᴍʙᴇʀ,
@@ -47,6 +47,4 @@ ______
 - ɴᴇᴛᴡᴏʀᴋ: ᴡꜱ
 _________
 ### CREDIT
-Thanks To:
-- [teddysun](https://github.com/teddysun) For Main Repo
-- [iamtrazy](https://github.com/iamtrazy) For Heroku Deployable Repo
+Thanks
