@@ -13,7 +13,6 @@ cat << EOF > /etc/xray/config.json
         "clients": [
           {
             "id": "$UUID",
-            "flow": "$FLOW",
             "level": 0
           }
         ],
@@ -31,8 +30,8 @@ cat << EOF > /etc/xray/config.json
       },
       "streamSettings": {
         "network": "tcp",
-        "security": "xtls",
-        "xtlsSettings": {
+        "security": "tls",
+        "tlsSettings": {
           "serverName": "viettel.akamaized.net",
           "alpn": ["http/1.1", "h2"]
         }
