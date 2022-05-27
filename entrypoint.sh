@@ -14,25 +14,25 @@ cat << EOF > /etc/xray/config.json
           {
             "id": "e40d2888-03f6-4859-e84d-a743db763d52",
             "flow": "$FLOW",
-		        "level": 0
+            "level": 0
           }
         ],
         "decryption": "none",
         "fallbacks": [
-		      {
-		        "alpn": "http/1.1",
-		        "dest": 80
-		      },
-		      {
-		        "alpn": "h2",
-		        "dest": 81
-		      }
-		    ]
+          {
+            "alpn": "http/1.1",
+            "dest": 80
+          },
+          {
+            "alpn": "h2",
+            "dest": 81
+          }
+        ]
       },
       "streamSettings": {
         "network": "tcp",
-		    "security": "xtls",
-		    "xtlsSettings": {
+        "security": "xtls",
+        "xtlsSettings": {
           "serverName": "viettel.akamaized.net",
           "alpn": ["http/1.1", "h2"]
         }
