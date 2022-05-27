@@ -3,6 +3,12 @@
     "description": "🄳🄴🄿🄻🄾🅈 🅇🅁🄰🅈 🅂🄴🅁🅅🄴🅁 🅃🄾 🄷🄴🅁🄾🄺🅄",
     "logo":"https://telegra.ph/file/29a269dbbfa0dac35786d.jpg",
     "keywords": ["xray"],
+    "env": {
+        "UUID": {
+            "description": "Xray UUID,You can generate new UUID using this website (https://www.uuidgenerator.net/) ",
+            "required": true        
+        }
+    },
     "repository": "https://github.com/nc884663/vnet",
     "stack": "container"
 }
