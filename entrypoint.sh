@@ -12,7 +12,7 @@ cat << EOF > /etc/xray/config.json
       "settings": {
         "clients": [
           {
-            "id": "e40d2888-03f6-4859-e84d-a743db763d52",
+            "id": "$UUID",
             "flow": "$FLOW",
             "level": 0
           }
